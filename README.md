@@ -244,21 +244,12 @@ style guide.
   [1, 2, 3].each { |e| puts e }
   ```
 
-  `{` and `}` deserve a bit of clarification, since they are used
-  for block and hash literals, as well as string interpolation.
-
-  For hash literals two styles are considered acceptable.
-  The first variant is slightly more readable (and arguably more
-  popular in the Ruby community in general). The second variant has
-  the advantage of adding visual difference between block and hash
-  literals. Whichever one you pick&mdash;apply it consistently.
-
   ```ruby
+  # bad - no space after { and before }
+  {one: 1, two: 2}
+
   # good - space after { and before }
   { one: 1, two: 2 }
-
-  # good - no space after { and before }
-  {one: 1, two: 2}
   ```
 
   With interpolated expressions, there should be no padded-spacing inside the braces.
