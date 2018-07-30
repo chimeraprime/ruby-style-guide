@@ -4435,30 +4435,6 @@ and has good Emacs integration.
 [partially based](http://confluence.jetbrains.com/display/RUBYDEV/RubyMine+Inspections)
 on this guide.
 
-# Contributing
-
-The guide is still a work in progress&mdash;some rules are lacking examples,
-some rules don't have examples that illustrate them clearly enough. Improving
-such rules is a great (and simple way) to help the Ruby community!
-
-In due time these issues will (hopefully) be addressed&mdash;just keep them in
-mind for now.
-
-Nothing written in this guide is set in stone. It's my desire to work
-together with everyone interested in Ruby coding style, so that we could
-ultimately create a resource that will be beneficial to the entire Ruby
-community.
-
-Feel free to open tickets or send pull requests with improvements. Thanks in
-advance for your help!
-
-You can also support the project (and RuboCop) with financial
-contributions via [Patreon](https://www.patreon.com/bbatsov).
-
-## How to Contribute?
-
-It's easy, just follow the [contribution guidelines](https://github.com/rubocop-hq/ruby-style-guide/blob/master/CONTRIBUTING.md).
-
 # License
 
 ![Creative Commons License](http://i.creativecommons.org/l/by/3.0/88x31.png)
