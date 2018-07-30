@@ -43,12 +43,6 @@ various highly regarded Ruby programming resources, such as
 ["Programming Ruby"][pickaxe] and
 ["The Ruby Programming Language"][trpl].
 
-There are some areas in which there is no clear consensus in the Ruby community
-regarding a particular style (like string literal quoting, spacing inside hash
-literals, dot position in multi-line method chaining, etc.). In such scenarios
-all popular styles are acknowledged and it's up to you to pick one and apply it
-consistently.
-
 This style guide evolves over time as additional conventions are
 identified and past conventions are rendered obsolete by changes in
 Ruby itself.
@@ -567,40 +561,20 @@ Translations of the guide are available in the following languages:
   ```
 
 * <a name="consistent-multi-line-chains"></a>
-    Adopt a consistent multi-line method chaining style. There are two popular
-    styles in the Ruby community, both of which are considered
-    good&mdash;leading `.` (Option A) and trailing `.` (Option B).
+    Adopt a consistent multi-line method chaining style. When continuing
+    a chained method invocation on another line, include the `.` on the first
+    line to indicate that the expression continues.
 <sup>[[link](#consistent-multi-line-chains)]</sup>
 
-  * **(Option A)** When continuing a chained method invocation on
-    another line keep the `.` on the second line.
+  ```ruby
+  # bad - need to read ahead to the second line to know that the chain continues
+  one.two.three
+    .four
 
-    ```ruby
-    # bad - need to consult first line to understand second line
-    one.two.three.
-      four
-
-    # good - it's immediately clear what's going on the second line
-    one.two.three
-      .four
-    ```
-
-  * **(Option B)** When continuing a chained method invocation on another line,
-    include the `.` on the first line to indicate that the
-    expression continues.
-
-    ```ruby
-    # bad - need to read ahead to the second line to know that the chain continues
-    one.two.three
-      .four
-
-    # good - it's immediately clear that the expression continues beyond the first line
-    one.two.three.
-      four
-    ```
-
-  A discussion on the merits of both alternative styles can be found
-  [here](https://github.com/rubocop-hq/ruby-style-guide/pull/176).
+  # good - it's immediately clear that the expression continues beyond the first line
+  one.two.three.
+    four
+  ```
 
 * <a name="no-double-indent"></a>
     Align the parameters of a method call if they span more than one
