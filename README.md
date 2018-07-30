@@ -57,19 +57,6 @@ You can generate a PDF or an HTML copy of this guide using
 [RuboCop][] is a code analyzer, based on this
 style guide.
 
-Translations of the guide are available in the following languages:
-
-* [Chinese Simplified](https://github.com/JuanitoFatas/ruby-style-guide/blob/master/README-zhCN.md)
-* [Chinese Traditional](https://github.com/JuanitoFatas/ruby-style-guide/blob/master/README-zhTW.md)
-* [Egyptian Arabic](https://github.com/HassanTC/ruby-style-guide/blob/master/README-EgAr.md)
-* [French](https://github.com/gauthier-delacroix/ruby-style-guide/blob/master/README-frFR.md)
-* [Japanese](https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md)
-* [Korean](https://github.com/dalzony/ruby-style-guide/blob/master/README-koKR.md)
-* [Portuguese (pt-BR)](https://github.com/rubensmabueno/ruby-style-guide/blob/master/README-PT-BR.md)
-* [Russian](https://github.com/arbox/ruby-style-guide/blob/master/README-ruRU.md)
-* [Spanish](https://github.com/alemohamad/ruby-style-guide/blob/master/README-esLA.md)
-* [Vietnamese](https://github.com/CQBinh/ruby-style-guide/blob/master/README-viVN.md)
-
 ## Table of Contents
 
 * [Source Code Layout](#source-code-layout)
